@@ -1,16 +1,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "testsuite/version"
+require "tasks/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "testsuite"
-  spec.version       = Testsuit::VERSION
+  spec.name          = "tasks"
+  spec.version       = Tasks::VERSION
   spec.authors       = ["Oleksandr Protsiuk"]
   spec.email         = ["alex_is_ok@yahoo.com"]
 
-  spec.summary       = %q{gem is created for testing some solutions of math-tasks}
-  spec.homepage      = "https://github.com/OleksandrProtsiuk/testsuite-gem.git"
+  spec.summary       = %q{Gem for solving some math tasks}
+  spec.homepage      = ""
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "testsuite", "~> 0.1.0"
 end
