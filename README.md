@@ -1,15 +1,15 @@
-# Tasks
+# Math_tasker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tasks`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+gem which can help to solve some math tasks from one old book))
 
 ## Installation
+
+https://rubygems.org/gems/math_tasker
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tasks'
+gem 'math_tasker'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install tasks
+    $ gem install math_tasker
 
 ## Usage
 
